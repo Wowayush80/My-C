@@ -16,5 +16,5 @@ int main()
     if (a + b == x)
         printf("it is a kaprekar number");
     else
-        printf("it is not a kaprekar number");
+        printf("it is not a kaprekar number %d", p);
 }

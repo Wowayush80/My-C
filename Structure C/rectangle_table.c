@@ -3,7 +3,7 @@ struct box
 {
     int len, bre, hei, vol;
 };
-struct box b[3];
+struct box b[2];
 void main()
 {
     int i, n, a = 0, f = 0;

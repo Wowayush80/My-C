@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 void kar(int);
 void main()
 {
@@ -19,7 +20,7 @@ void kar(int n)
     a = sq % p;
     b = sq / p;
     if (a + b == x)
-        printf("it is a kaprekar number");
+        printf("it is a kaprekar number ");
     else
-        printf("it is not a kaprekar number");
+        printf("it is not a kaprekar number %d", c);
 }
